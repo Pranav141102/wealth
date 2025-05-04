@@ -59,10 +59,10 @@ const Header = () => {
         {/* Action Buttons */}
         <div className="flex items-center space-x-4">
           <SignedIn>
-          <Link href="http://localhost:8501/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://governancegain2point0.streamlit.app/" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" className="flex items-center gap-2">
               <LayoutDashboard size={18} />
-                <span className="hidden md:inline">ESG Score</span>
+                <span className="hidden md:inline">Investment Recommendation</span>
             </Button>
             </Link>
             <Link href="https://investemnt-calculator.vercel.app/" target="_blank" rel="noopener noreferrer">
