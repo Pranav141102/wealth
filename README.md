@@ -33,14 +33,13 @@ This repository hosts a modern, production-ready full-stack application built us
 
 ---
 
-## 🔐 Authentication
-
+🔐 Authentication
 This project uses [**Clerk**](https://clerk.dev) for:
 - User sign-in / sign-up
 - Session management
 - Social authentication support
 
-### 🔑 Setup Clerk
+🔑 Setup Clerk
 1. Sign up at [Clerk.dev](https://clerk.dev)
 2. Get your **frontend API** and **secret key**
 3. Add them to your `.env` file:
@@ -49,7 +48,4 @@ This project uses [**Clerk**](https://clerk.dev) for:
 CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
-
-
-### 👨‍💻 Author
-### Made with ❤️ by Pranav Deshmukh
+Made with ❤️ by Pranav Deshmukh
